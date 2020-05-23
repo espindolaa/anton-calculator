@@ -1,0 +1,29 @@
+div {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+
+}
+
+input{
+	text-align: center;
+}
+
+#answer {
+    max-width: 200px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
